@@ -17,6 +17,7 @@
 }
 
 .stars-header {
+  max-width: 1100px;
   background-color: white;
   border-bottom-width: 1px;
   border-bottom-style: solid;
@@ -25,17 +26,25 @@
   flex-direction: row;
   justify-content: space-between;
 
+  margin: auto;
+
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  height: 70px;
+  height: 100px;
 
   z-index: 100;
 }
 
 .gu-logo-div {
   height: 100px;
+}
+
+.stars-logo-div {
+  height: 100px;
+  position: fixed;
+  left: 30%;
 }
 
 .gu-logo-img,
@@ -66,7 +75,8 @@
 }
 
 .main-title {
-  background-color: lightgray;
+  color: white;
+  background-color: rgb(65, 65, 65);
   padding: 25px;
   text-align: center;
   font-size: 40px;

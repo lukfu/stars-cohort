@@ -1,0 +1,103 @@
+.main {
+  max-width: 1100px;
+  max-height: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+
+  margin-top: 140px;
+  margin-bottom: 0;
+
+  /* margin-left: auto;
+     margin-right auto;
+     Is a trick for centering an element horizontally
+     without needing a container. */
+  margin-left: auto;
+  margin-right: auto;
+  height: 500px;
+}
+
+.stars-header {
+  max-width: 1100px;
+  background-color: rgb(113, 166, 199);
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(228, 228, 228);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  margin: auto;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 120px;
+
+  z-index: 100;
+}
+
+.gu-logo-div {
+  height: 100px;
+}
+
+.gu-logo-img,
+.stars-logo-img{
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.window-bar {
+  border-radius: 10px 10px 0 0;
+  background-color: rgb(37, 90, 158);
+  height: 20px;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+}
+
+.window-search-bar {
+  margin-left: auto; 
+  margin-right: 0;
+}
+
+.search-bar-input {
+  padding: 7px;
+  border: none;
+  border-radius: 3px;
+}
+
+.main-title {
+  border-radius: 10px 10px 0 0 ;
+  color: white;
+  background-color: rgb(65, 65, 65);
+  padding: 15px;
+  font-size: 20px;
+  font-style: bold;
+}
+
+.main-description {
+  padding: 30px;
+  background-color: lightblue;
+  bottom: 0;
+}
+
+.bookmarks-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.bookmark-button {
+  writing-mode: vertical-lr;
+  text-orientation: mixed;
+  font-style: bold;
+  width: 50px;
+  height: 90px;
+  margin: 0 15px;
+  background-color: rgb(38, 130, 235);
+  border: none;
+
+  cursor: pointer;
+}
