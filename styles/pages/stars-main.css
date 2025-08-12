@@ -81,6 +81,7 @@
   padding: 30px;
   background-color: lightblue;
   bottom: 0;
+  height: 100%;
 }
 
 .bookmarks-div {
@@ -98,6 +99,7 @@
   margin: 0 15px;
   background-color: rgb(38, 130, 235);
   border: none;
+  border-radius: 0 0 0 15px;
 
   cursor: pointer;
 }

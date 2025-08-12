@@ -1,11 +1,11 @@
 .main {
   max-width: 1100px;
   max-height: 100%;
+  height: 100%;
   padding-left: 30px;
   padding-right: 30px;
 
-  margin-top: 140px;
-  margin-bottom: 0;
+  margin: 30px 0 0 0;
 
   /* margin-left: auto;
      margin-right auto;
@@ -13,41 +13,50 @@
      without needing a container. */
   margin-left: auto;
   margin-right: auto;
-  height: 500px;
+  display: flex;
+  flex-direction: column;
 }
 
 .stars-header {
   max-width: 1100px;
-  background-color: white;
   border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: rgb(228, 228, 228);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 
   margin: auto;
 
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   right: 0;
-  height: 100px;
+  height: 120px;
 
   z-index: 100;
 }
 
 .gu-logo-div {
-  height: 100px;
+  background-color: rgba(2, 76, 139, 1);
+  position: absolute;
+  margin: 90px 0 0 50px;
+  height: 150px;
+  width: 100px;
+  cursor: pointer;
 }
 
 .stars-logo-div {
   height: 100px;
-  position: fixed;
-  left: 30%;
+  margin-left: 20%;
+  position: relative;
 }
 
-.gu-logo-img,
+.gu-logo-img {
+  margin-top: 20px;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
 .stars-logo-img{
   max-width: 100%;
   max-height: 100%;
@@ -85,6 +94,27 @@
 
 .main-description {
   padding: 30px;
-  background-color: lightblue;
+  background-color: lightgray;
   bottom: 0;
+  height: 100%;
+}
+
+.bookmarks-div {
+  display: flex;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.bookmark-button {
+  writing-mode: vertical-lr;
+  text-orientation: mixed;
+  font-style: bold;
+  width: 50px;
+  height: 90px;
+  margin: 0 15px;
+  background-color: rgb(38, 130, 235);
+  border-radius: 15px 0 0 0;
+  border: none;
+
+  cursor: pointer;
 }
