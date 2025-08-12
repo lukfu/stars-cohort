@@ -32,7 +32,7 @@
   right: 0;
   height: 120px;
 
-  z-index: 100;
+  z-index: -1;
 }
 
 .gu-logo-div {
@@ -105,13 +105,17 @@
   margin-right: 0;
 }
 
+.stars-bookmark-link {
+  display: inline-block;
+  margin: 0 15px;
+}
+
 .bookmark-button {
   writing-mode: vertical-lr;
   text-orientation: mixed;
   font-style: bold;
   width: 50px;
   height: 90px;
-  margin: 0 15px;
   background-color: rgb(38, 130, 235);
   border-radius: 15px 0 0 0;
   border: none;
